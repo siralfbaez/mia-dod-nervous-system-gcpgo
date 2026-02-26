@@ -143,8 +143,9 @@ FedRAMP Ready: Architecture aligned with "High" impact security standards.
 
 # Author: 
 ---
-Alf Baez 
-Sr. Milti-Cloud and AI Solutions Architect; API Integration ; Data/Database Architect, Security Advisor
-Architecting Secure & Intelligently Cloud & Hybrid Ecosystems
+Alf Baez<br> 
+Sr. Milti-Cloud and AI Solutions Architect; API Integration<br> 
+Data/Database Architect, Security Advisor<br>
+Architecting Secure & Intelligently Cloud & Hybrid Ecosystems<br>
 High Volume IT Infrastructure, PaaS, IaaS, Saas
 

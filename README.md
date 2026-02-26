@@ -102,7 +102,8 @@ The `services/ai-agent` utilizes **Vertex AI** to monitor integration health. If
 
 ## 📂 Project Structure
 
-.
+```Text
+
 ├── agent/               # Vertex AI Prompt Templates & Logic
 ├── api/                 # Protobuf & OpenAPI Specifications
 ├── database/            # SQL Migrations & Seeding
@@ -110,6 +111,8 @@ The `services/ai-agent` utilizes **Vertex AI** to monitor integration health. If
 ├── pkg/                 # Shared Go Libraries (Resilience, VertexAI)
 ├── services/            # Go Microservices (Gateway, Workers, Agents)
 └── terraform/           # GCP Infrastructure Modules
+
+```
 
 # 🚦 Getting Started
 

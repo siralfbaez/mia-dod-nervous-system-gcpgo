@@ -1,0 +1,11 @@
+module github.com/siralfbaez/mia-dod-nervous-system-gcpgo/services/signal-gateway
+
+go 1.25.5
+
+require (
+	github.com/siralfbaez/mia-dod-nervous-system-gcpgo/pkg/resilience v0.0.0
+	github.com/sony/gobreaker v0.5.0
+)
+
+// This tells Go to use the local version of your package during development
+replace github.com/siralfbaez/mia-dod-nervous-system-gcpgo/pkg/resilience => ../../pkg/resilience

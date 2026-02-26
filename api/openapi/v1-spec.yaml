@@ -1,0 +1,16 @@
+openapi: 3.0.3
+info:
+  title: MIA-DoD Nervous System API
+  version: 1.0.0
+  description: Integration Gateway for real-time order signals.
+paths:
+  /v1/order:
+    post:
+      summary: Submit a new order signal
+      responses:
+        '200':
+          description: Signal processed successfully
+        '422':
+          description: Contract validation failed
+        '503':
+          description: Circuit breaker tripped

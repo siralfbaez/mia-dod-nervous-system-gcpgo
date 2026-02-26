@@ -2,7 +2,10 @@ module github.com/siralfbaez/mia-dod-nervous-system-gcpgo/pkg/resilience
 
 go 1.25
 
-require github.com/sony/gobreaker v0.5.0
+require (
+	github.com/avast/retry-go v3.0.0+incompatible
+	github.com/sony/gobreaker v0.5.0
+)
 
 require (
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect

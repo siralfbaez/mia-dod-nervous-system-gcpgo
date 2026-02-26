@@ -1,0 +1,10 @@
+syntax = "proto3";
+package signal.v1;
+option go_package = "github.com/siralfbaez/mia-dod-nervous-system-gcpgo/api/proto";
+
+message OrderSignal {
+  string order_id = 1;
+  double amount = 2;
+  string vendor_id = 3;
+  int64 timestamp = 4;
+}

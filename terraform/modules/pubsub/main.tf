@@ -12,6 +12,14 @@ resource "google_pubsub_topic" "signal_dead_letter" {
   name = "nervous-system-signals-dlq"
 }
 
+resource "google_pubsub_subscription" "ai_observation_sub" {
+  name  = "nervous-system-ai-sub"
+  topic = google_pubsub_topic.signal_topic.name
+
+  # AI might take longer to think, so we increase the ack deadline
+  ack_deadline_seconds = 60
+}
+
 resource "google_pubsub_subscription" "signal_subscription" {
   name  = "nervous-system-sub"
   topic = google_pubsub_topic.signal_topic.name

@@ -142,7 +142,6 @@ IAM Principle of Least Privilege: Fine-grained service account roles.
 FedRAMP Ready: Architecture aligned with "High" impact security standards.
 
 # Author: 
----
 Alf Baez<br> 
 Sr. Milti-Cloud and AI Solutions Architect; API Integration<br> 
 Data/Database Architect, Security Advisor<br>

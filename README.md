@@ -61,8 +61,6 @@ graph TD
 
 This project follows the "Nervous System" metaphor to categorize system components:
 
-```Text
-
 | Folder | System Component | Strategic Purpose |
 | :--- | :--- | :--- |
 | `services/` | **Neurons** | High-performance Go microservices handling real-time signals. |
@@ -72,8 +70,6 @@ This project follows the "Nervous System" metaphor to categorize system componen
 | `docs/` | **Intelligence** | Architecture Decision Records (ADRs) & Engineering SOPs. |
 | `agent/` | **Higher Cognition** | Self-healing integration logic powered by Vertex AI (Gemini). |
 
-
-```
 ---
 
 ## 🛠️ Tech Stack & Standards

@@ -5,13 +5,11 @@
 The **Mia-DoD-Nervous-System-GCPGo** is a Staff-level reference architecture designed to untangle flaky, brittle integrations in complex multi-vendor retail ecosystems. It transforms a traditional backend into a resilient "Nervous System" using **Golang**, **Google Cloud Platform (GCP)**, and **Vertex AI**.
 
 📋 Overview
-
 ---
 
 # 🚀 The Architecture: diagram placeholder
 ---
 
-## Architecture Diagram
 ```mermaid
 graph TD
     subgraph "External Signals"
@@ -56,7 +54,6 @@ graph TD
     style B fill:#ffcccb,stroke:#333
     
     ```
-  ---
 
 ---
 
@@ -64,6 +61,7 @@ graph TD
 
 This project follows the "Nervous System" metaphor to categorize system components:
 
+```
 | Folder | System Component | Strategic Purpose |
 | :--- | :--- | :--- |
 | `services/` | **Neurons** | High-performance Go microservices handling real-time signals. |
@@ -73,13 +71,11 @@ This project follows the "Nervous System" metaphor to categorize system componen
 | `docs/` | **Intelligence** | Architecture Decision Records (ADRs) & Engineering SOPs. |
 | `agent/` | **Higher Cognition** | Self-healing integration logic powered by Vertex AI (Gemini). |
 
----
-
-
+```
 ---
 
 ## 🛠️ Tech Stack & Standards
-
+```
 - **Language:** Golang 1.22+ (Idiomatic `internal/` package structure)
 - **Infrastructure:** Terraform (Modular)
 - **Compute:** GKE (Kubernetes) & Cloud Run (Serverless)
@@ -87,7 +83,7 @@ This project follows the "Nervous System" metaphor to categorize system componen
 - **Database:** AlloyDB (High-performance PostgreSQL-compatible)
 - **AI/ML:** Vertex AI (Gemini 2.0 Flash) for anomaly detection and healing.
 - **Observability:** OpenTelemetry / DataDog ready.
-
+```
 ---
 
 ## 🚀 Key DevX Features
@@ -118,6 +114,7 @@ The `services/ai-agent` utilizes **Vertex AI** to monitor integration health. If
 ├── services/            # Go Microservices (Gateway, Workers, Agents)
 └── terraform/           # GCP Infrastructure Modules
 
+```
 
 # 🚦 Getting Started
 

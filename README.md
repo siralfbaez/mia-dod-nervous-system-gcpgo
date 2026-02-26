@@ -104,13 +104,84 @@ The `services/ai-agent` utilizes **Vertex AI** to monitor integration health. If
 
 ```Text
 
-├── agent/               # Vertex AI Prompt Templates & Logic
-├── api/                 # Protobuf & OpenAPI Specifications
-├── database/            # SQL Migrations & Seeding
-├── docs/                # ADRs, Compliance & Architecture SOPs
-├── pkg/                 # Shared Go Libraries (Resilience, VertexAI)
-├── services/            # Go Microservices (Gateway, Workers, Agents)
-└── terraform/           # GCP Infrastructure Modules
+mia-dod-nervous-system-gcpgo
+├── 🤖 agent
+│   └── 📝 prompts
+│       └── integration_healing_system.txt
+├── 🔌 api
+│   ├── 📄 openapi
+│   │   └── v1-spec.yaml
+│   └── 📜 proto
+│       └── signal.proto
+├── 💾 database
+│   ├── 🚀 migrations
+│   │   └── 000001_init_schema.up.sql
+│   ├── 🐚 scripts
+│   └── 🧬 seeds
+│       └── test_menu_items.sql
+├── 📚 docs
+│   ├── 🏛️ architecture
+│   │   └── ADR-001-GCP-NATIVE-MIGRATION.md
+│   ├── 🛡️ compliance
+│   ├── 🇺🇸 GCP_FEDRAMP_ALIGNMENT.md
+│   ├── 📏 INTEGRATION_STANDARDS.md
+│   └── 🚨 SOP_INCIDENT_RESPONSE.md
+├── 📦 pkg
+│   ├── 🩹 resilience
+│   │   ├── breaker_test.go
+│   │   ├── breaker.go
+│   │   ├── go.mod
+│   │   └── retry.go
+│   └── ☁️ vertexai
+│       ├── client_test.go
+│       ├── client.go
+│       └── go.mod
+├── 📝 README.md
+├── ⚙️ services
+│   ├── 🧠 ai-agent
+│   │   ├── 🎬 cmd
+│   │   │   └── main.go
+│   │   ├── go.mod
+│   │   └── 🛠️ internal
+│   │       └── 🧪 logic
+│   │           ├── inference_test.go
+│   │           └── inference.go
+│   ├── ⚖️ contract-validator
+│   │   ├── go.mod
+│   │   └── 🛠️ internal
+│   │       └── 🔍 validator
+│   │           ├── validator_test.go
+│   │           └── validator.go
+│   ├── ⚡ signal-gateway
+│   │   ├── 🎬 cmd
+│   │   │   └── main.go
+│   │   ├── go.mod
+│   │   └── 🛠️ internal
+│   │       └── 📡 handler
+│   │           ├── gateway_test.go
+│   │           └── gateway.go
+│   └── 📮 worker-pubsub
+│       ├── 🎬 cmd
+│       │   └── main.go
+│       ├── go.mod
+│       └── 🛠️ internal
+│           └── 🔄 processor
+│               ├── subscriber_test.go
+│               └── subscriber.go
+└── 🏗️ terraform
+    ├── main.tf
+    ├── 🧩 modules
+    │   ├── 🗄️ alloydb
+    │   ├── 🚀 cloud-run
+    │   ├── ☸️ gke-cluster
+    │   ├── 🆔 iam-roles
+    │   ├── 🔐 kms-encryption
+    │   ├── 📢 pubsub
+    │   └── 🌐 vpc-network
+    ├── outputs.tf
+    ├── providers.tf
+    └── variables.tf
+
 
 ```
 

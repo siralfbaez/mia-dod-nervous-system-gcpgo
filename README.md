@@ -73,7 +73,8 @@ This project follows the "Nervous System" metaphor to categorize system componen
 ---
 
 ## 🛠️ Tech Stack & Standards
-```
+---
+
 - **Language:** Golang 1.22+ (Idiomatic `internal/` package structure)
 - **Infrastructure:** Terraform (Modular)
 - **Compute:** GKE (Kubernetes) & Cloud Run (Serverless)
@@ -81,7 +82,6 @@ This project follows the "Nervous System" metaphor to categorize system componen
 - **Database:** AlloyDB (High-performance PostgreSQL-compatible)
 - **AI/ML:** Vertex AI (Gemini 2.0 Flash) for anomaly detection and healing.
 - **Observability:** OpenTelemetry / DataDog ready.
-```
 ---
 
 ## 🚀 Key DevX Features

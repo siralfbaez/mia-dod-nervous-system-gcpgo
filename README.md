@@ -53,7 +53,7 @@ graph TD
     style AI fill:#bbf,stroke:#333,stroke-width:2px
     style B fill:#ffcccb,stroke:#333
     
-    ```
+```
 
 ---
 

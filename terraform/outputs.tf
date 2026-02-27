@@ -26,3 +26,15 @@ output "signal_topic_name" {
   description = "The name of the main Pub/Sub topic for signals"
   value       = module.pubsub.topic_name
 }
+
+# KMS Outputs
+output "kms_key_id" {
+  description = "The encryption key for the nervous system"
+  value       = module.kms.crypto_key_id
+}
+
+# Cloud Run Outputs
+output "validator_endpoint" {
+  description = "The final endpoint for the Signal Validator"
+  value       = module.cloud_run.validator_uri
+}

@@ -18,6 +18,8 @@ go.work
 .terraform.lock.hcl
 *.tfvars
 *.tfvars.json
+
+# GCP Service Account Key (The Master Key) --- #
 auth-key.json
 
 # --- Secrets & Environment ---

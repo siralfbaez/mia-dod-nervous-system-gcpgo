@@ -1,10 +1,27 @@
-# Mia-DoD-Nervous-System-GCPGo
+# MIA-DoD Nervous System (GCP + Go)
 
 ### *The "Integration Authority" Architecture*
 
-The **Mia-DoD-Nervous-System-GCPGo** is a Staff-level reference architecture designed to untangle flaky, brittle integrations in complex multi-vendor retail ecosystems. It transforms a traditional backend into a resilient "Nervous System" using **Golang**, **Google Cloud Platform (GCP)**, and **Vertex AI**.
+# 📋 Overview
 
-📋 Overview
+The **Mia-DoD-Nervous-System-GCPGo** is a Staff-level reference architecture designed to untangle flaky, brittle integrations in complex multi-vendor retail ecosystems. It transforms a traditional backend into a resilient "Nervous System" .
+
+A high-resilience, AI-augmented integration authority designed for global-scale retail signal processing. This architecture implements a "Nervous System" metaphor to handle real-time ordering signals with enterprise-grade stability and cognitive anomaly detection.
+
+## 🧠 Architectural Pillars
+* **The Nervous Cord (Pub/Sub):** Durable, asynchronous message bus decoupling the high-traffic Gateway from the processing Workers.
+* **The Higher Cognition (Vertex AI):** Real-time anomaly detection using Gemini 2.0 Flash to reason about signal integrity beyond standard schema validation.
+* **The Metabolism (AlloyDB):** High-throughput PostgreSQL-compatible storage with dedicated read-pools for analytical offloading.
+* **The Immune System (Go Resilience):** Custom circuit-breaker and exponential backoff patterns to protect the system from "thundering herd" failures.
+* **Golang**, **Google Cloud Platform (GCP)**
+
+## 🛠️ Tech Stack
+- **Language:** Go 1.25.5 (Workspace-based Monorepo)
+- **Infrastructure:** Terraform (Modular GKE Autopilot, Cloud Run, VPC, KMS)
+- **Database:** Google Cloud AlloyDB
+- **AI/ML:** Vertex AI (Gemini SDK)
+- **Protocols:** OpenAPI 3.0 & Protobuf v3 
+
 ---
 
 # 🚀 The Architecture: diagram placeholder
